@@ -5,7 +5,6 @@
 int main(void)
 {
  int i,sum=0;
-
  for(i=1;i<=399;i++)			/* 計算1+2+...+10的結果 */
     sum+=i++;
  printf("1+3+5+...+399=%d\n",sum);	/* 印出sum的值 */
