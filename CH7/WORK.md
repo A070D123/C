@@ -28,3 +28,40 @@ int main(void)
  system("pause");
  return 0;
 }
+```
+
+# 1+3+5+399 (While Loop)
+```
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=0;	/* 設定迴圈初值 */
+   while(i<=399)    /* while迴圈，當sum小於100則繼續累加 */
+   {
+      sum+=i;
+      printf("從1累加到%2d=%2d\n",i,sum);
+      i+=2;
+   }
+   printf("必須累加到%d\n",i+2);
+   system("pause");
+   return 0;
+}
+```
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=2,sum=0;	/* 設定迴圈初值 */
+   while(i<=298)    /* while迴圈，當sum小於100則繼續累加 */
+   {
+      sum+=i;
+      printf("從1累加到%2d=%2d\n",i,sum);
+      i+=2;
+   }
+   printf("必須累加到%d\n",i+2);
+   system("pause");
+   return 0;
+}
