@@ -1,3 +1,4 @@
+```
 /* prog9_8, 陣列的搜尋 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,4 +27,4 @@ int main(void)
    system("pause");
    return 0;
 }
-
+```
